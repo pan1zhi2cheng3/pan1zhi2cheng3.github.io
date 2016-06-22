@@ -12,7 +12,7 @@ body { color:#333; padding:5px 0; font:12px/20px "SimSun","宋体","Arial Narrow
 .header-bottom{width:1200px;height:164px;margin:0 auto;}
 .search,.log{height:37px;float:left;}
 .search li{float:left;}
-.search{width:796px;margin-left:52px;}
+.search{width:700px;margin-left:52px;}
 .wxin{padding-top:11px;}
 
 .gz p ,.gz span{line-height: 37px;
@@ -34,7 +34,7 @@ body { color:#333; padding:5px 0; font:12px/20px "SimSun","宋体","Arial Narrow
 .khd,.khd span{line-height:37px;font-size:11px;
   float:left;}
 .khd .fa-mobile-phone{font-size:20px;padding:0 11px 0 24px;}
-.log{width:433px;padding-top:10px;height:27px;}
+.log{width:433px;padding-top:10px;height:27px;float: right;}
 .log li{float:left;}
 .log li a{display:block;font-size:12px;padding:0 8px;}
 .log .zuce{height:12px;border-right:1px solid #000;

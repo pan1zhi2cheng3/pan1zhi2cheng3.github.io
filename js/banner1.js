@@ -125,7 +125,12 @@
 			$buddle.find("li").click(function(){
 				var prevIndex=index;
 				index=$(this).index();
-				changePrevPic(prevIndex,index);
+				if(index>prevIndex){
+					changePic(prevIndex,index);
+				}
+				else if(index<prevIndex){
+					changePrevPic(prevIndex,index);
+				}
 			})
 			function changePrevPic(prevIndex,index){
 				$bannerList.eq(prevIndex).stop(true,true).animate({"left":"100%"},animateTime,function(){
