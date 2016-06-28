@@ -1,0 +1,78 @@
+body {
+  background-color: #000;
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  width: 936px;
+  height: 371px;
+  margin: 50px auto;
+}
+.content > div {
+  border-radius: 5px;
+  width: 51px;
+  height: 52px;
+  text-align: center;
+  line-height: 52px;
+  background-color: #d1d157;
+  position: relative;
+  float: left;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+.content > div div {
+  width: 246px;
+  height: 125px;
+  position: absolute;
+  top: 52px;
+  z-index: 999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #ffffff;
+  padding-left: 10px;
+  display: none;
+  opacity: .8;
+}
+.content > div div strong {
+  height: 10px;
+}
+.content > div div h4 {
+  height: 30px;
+  font-size: 12px;
+  width: 256px;
+  margin-top: -20px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.content > div div p {
+  height: 24px;
+  width: 100%;
+  line-height: 24px;
+}
+.content > div:nth-child(1) {
+  margin-right: 780px;
+  background-color: #81d183;
+}
+.content > div:nth-child(5),
+.content > div:nth-child(15) {
+  margin-right: 416px;
+}
+.content > div.blue1 {
+  background-color: #8591d3;
+}
+.content > div.pink1 {
+  background-color: #d17d47;
+}
+.content > div.d1 {
+  background-color: #d1d1d3;
+}
+.content > div.green1 {
+  background-color: #55d157;
+}
+/*# sourceMappingURL=zhou.css.map */
